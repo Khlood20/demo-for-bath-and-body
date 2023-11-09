@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+       
+.navbar{
+    
+    background-color:  rgb(239, 237, 237);
+    text-align: center;
+
+    
+}
+
+.navbar ul li{
+   margin: 10px;
+    display: inline-block;
+
+    font-size: 10px;  
+}
+.navbar ul li a{
+   
+    text-decoration: none;
+    color:rgb(81, 124, 180);
+}
+.navbar ul li a:hover{
+    background-color: white;
+}
+
+/*********************/
+.tnavvbar  {
+margin-left: 100px;
+align-items: center;
+width: 1400;
+
+}
+/***********************************/
+.navvvbar{
+    position: relative;
+    text-align: center;
+    
+
+}
+.navvvbar ul li{
+    display: inline-block;
+}
+.navvvbar ul {
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%; 
+}
+.navvvbar ul :hover{
+text-decoration: underline 2px ;
+text-decoration-color: rgb(34, 81, 158);
+
+}
+
+    .navvvbar ul li a {
+		color: rgb(142, 137, 137);
+		display: block;
+		padding: 10px 20px;
+		text-decoration: none;
+	}
+    
+   
+    
+	/* Style the dropdown menu */
+   
+    .navvvbar ul .dropdown {
+       
+        display: block;
+       display: none;
+      visibility: hidden;
+      opacity: 0;
+      position: absolute;
+    /*  padding-left: 0;
+      left: 0;*/
+    }
+    .navvvbar ul:hover .dropdown {
+       display: block;
+     transition: all 0.3s ease;
+      visibility: visible;
+      opacity: 1;
+      position: absolute;
+      min-width: 250px;
+      text-align: left;
+      padding-top: 20px;
+      box-shadow: 0px 3px 5px -1px #ccc;
+      
+    }
+    /*********************************************************/
+  .download{
+    margin: 0;
+ 
+    text-align: center;
+    
+  }
+    .download ul{
+        margin: 0;
+        background-color: rgb(242, 246, 253);
+        height: 35px;
+        align-items: center;
+
+
+    }
+  
+  .download ul li {
+    text-align: center;
+    display: inline-block;
+    list-style-type: none;
+  }
+  .download a{
+    
+    align-items: center;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 100px;    
+    
+  }
+  /*****************************************/
+  .divimg1{
+    padding-top: 30px;
+     padding-left: 120px; 
+    
+  }
+  .divimg1 img{
+    width: 1250px;
+     
+  }
+
+  .divimg2{
+    padding-left: 120px;
+    padding-bottom: 20px; 
+    
+  }
+  .divimg2 img{
+     width: 1250px;
+  }
+  .divimg3{
+    padding-left: 295px; 
+  }
+
+  .divimg3 img{
+    width: 950px;
+    height: 450px;
+   
+  }
+  /********************************************/
+ .lastnav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    
+  }
+ .lastnav ul li{
+    margin: 25px;
+
+ 
+ }
+.lastnav ul li a {
+    text-decoration: none;
+    color: white;
+    border-color: tomato;
+   
+ }
+
+ .lastnav ul li .button 
+ {
+    font-size: 20px;
+    width: 195px;
+    height: 50px;
+    background-color: black;
+ }
+ .lastnav ul li .button :hover{
+    color: rgb(65, 65, 157);
+    transition: 1sec;
+    
+ }
+ /************************************/
+ .items{
+    
+   
+    width: 60%;
+    padding-left: 320px;
+    padding-right: 110px;
+    display: flex;
+
+ }
+ .items .item{
+    width: 25%;
+    margin: 20px;
+  
+
+ }
+ .items .item img {
+    width: 100%;
+ }
+ .items .item p{
+   text-align: center;
+ }
+
+ /**********************************************/
+ .categoriers{
+    width: 65%;
+    padding-left: 320px;
+    padding-right: 110;
+    padding-bottom: 25px;
+    display: flex;
+
+ }
+
+ .categoriers .category{
+    width:50%;
+    margin: 15px;
+
+ }
+
+ .categoriers .category img{
+    width: 100%;
+ }
+ .categoriers .category p {
+  text-align: center;
+ }
+ .categoriers .category a {
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-size: 13PX;
+  
+ }
+
+ .image{
+  padding-left: 320px;
+  padding-bottom: 60px;
+
+ }
+ .image img{
+  width: 980px;
+  height: 450px;
+ }
+
+
+ .caption
+ {
+  padding-left: 320px;
+  padding-right: 320px;
+  color: #666363;
+  text-align: center;
+padding-bottom: 100px;
+
+ }
+/***********************************************/
+ .line{
+
+  height: 2px;
+  background-color: rgb(30, 30, 138);
+  
+ }
+
+ .table{
+
+padding-left: 190px;
+padding-right: 150px;
+font-size: x-small;
+margin: 20px;
+ }
+ .table table {
+  width:100%;
+ }
+
+ .table table tr th{
+  width:25%;
+  padding-bottom: 20px;
+ }
+ .table table tr {
+  text-align: center;
+font-size: 13px;
+ }
+
+
+
+
